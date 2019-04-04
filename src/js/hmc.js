@@ -12,7 +12,7 @@
         return d3.create("svg:path").attr("d", path).node().getTotalLength();
     }
     x = d3.scaleLinear()
-        .domain([-4, 4]).nice()
+        .domain([-2.5, 2.5]).nice()
         .range([margin.left, width - margin.right])
 
     y = d3.scaleLinear()
