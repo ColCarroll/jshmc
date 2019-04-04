@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>HMC!</title>
+    <style type="text/css">
+        #drawing {
+            background: #fdf9f0;
+        }
+
+        .bar rect {
+            fill: steelblue;
+        }
+
+        .line {
+            fill: none;
+            stroke: #000;
+            stroke-width: 4px;
+            stroke-linejoin: round;
+            stroke-linecap: round;
+        }
+
+        .bar text {
+            fill: #fff;
+            font: 10px sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="ui main text container">
+        <h1 class="ui header">
+            <div class="content">Hamiltonian flows!</div>
+        </h1>
+        <svg id="drawing" width="960" height="700"></svg>
+    </div>
+
+    <script src="src/js/d3.v5.min.js"></script>
+    <script src="src/js/jquery.js"></script> -->
+    <script src="src/js/hmc.js"></script>
+</body>
+
+</html>
