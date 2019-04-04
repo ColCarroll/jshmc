@@ -160,7 +160,7 @@
             d_neg_log_normal(0, 0.2),
             d_neg_log_normal(-1, 0.5)
         ]
-        const probs = [0.6, 0.1, 0.3]
+        const probs = [0.4, 0.3, 0.3]
         const neg_log_p = mixture(dists, probs)
 
 
